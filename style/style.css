@@ -1,5 +1,11 @@
 h1 {
   font-family: new-spirit, serif;
-  font-style: normal;
-  font-weight: 300;
+  font-style: light;
+  font-weight: 100;
+}
+
+.home-menu {
+  text-align: center;
+  margin: 10px 50px;
+  color: aqua;
 }
