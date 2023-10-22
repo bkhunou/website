@@ -1,11 +1,30 @@
-h1 {
-  font-family: new-spirit, serif;
-  font-style: light;
-  font-weight: 100;
+:root {
+  --heading-font-family: new-spirit, serif;
+  --heading-font-style: normal;
+  --heading-font-weight: 300;
+  --text-colour-light: #f6f0eb;
 }
 
-.home-menu {
+h1 {
+  font-family: var(--heading-font);
+  font-style: var(--heading-font-style);
+  font-weight: var(--heading-font-weight);
+  color: var(--text-colour-light);
+}
+
+.hero {
+  background-color: #6a86d0;
+  color: var(--text-colour-light);
   text-align: center;
-  margin: 10px 50px;
-  color: aqua;
+}
+
+.small-link {
+  color: #f6f0eb;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-menu {
+  max-width: 393px;
+  margin: 0 auto;
 }
