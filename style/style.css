@@ -9,7 +9,7 @@
   --heading-font-style: light;
   --heading-font-weight: 300;
   --text-colour-light: #f6f0eb;
-  --link-text-hover: #1b0064;
+  --link-text-hover-dark: #1b0064;
 }
 
 body {
@@ -36,6 +36,10 @@ h3 {
   text-align: center;
 }
 
+h3:hover {
+  color: var(--text-colour-light);
+}
+
 .menu-link {
   font-family: var(--heading-font-family) !important;
   font-style: var(--heading-font-style) !important;
@@ -49,7 +53,7 @@ h3 {
   font-family: var(--heading-font-family) !important;
   font-style: var(--heading-font-style) !important;
   font-weight: var(--heading-font-weight) !important;
-  color: var(--link-text-hover);
+  color: var(--link-text-hover-dark);
   text-align: center;
 }
 
