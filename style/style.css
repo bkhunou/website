@@ -14,6 +14,8 @@
   --body-font-family: "Poppins", sans-serif;
 }
 
+/* Home Page CSS */
+
 .home-page {
   background-color: #6a86d0 !important;
   min-height: 100vh;
@@ -23,22 +25,8 @@
   justify-content: center;
 }
 
-.about-page {
-  background-color: #e5edc4 !important;
-  min-height: 100vh;
-  text-align: center;
-  margin: 0 auto;
-}
-
 .blog-page {
   background-color: #f6f0eb !important;
-  min-height: 100vh;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.studio-page {
-  background-color: #ec9831 !important;
   min-height: 100vh;
   text-align: center;
   margin: 0 auto;
@@ -59,9 +47,7 @@ h3 {
   text-align: center;
 }
 
-h3:hover {
-  color: var(--text-colour-light);
-}
+/* Home Page CSS */
 
 .menu-link {
   font-family: var(--heading-font-family) !important;
@@ -94,6 +80,8 @@ h3:hover {
   font-family: var(--body-font-family);
 }
 
+/* Navigation Bar CSS */
+
 .nav-bar {
   max-height: 50px;
 }
@@ -105,10 +93,9 @@ h3:hover {
   padding: 0px 30px !important;
 }
 
-.nav-link-2 {
-  color: var(--text-colour-light);
+.nav-link:hover {
   font-family: var(--heading-font-family);
-  color: #102362 !important;
+  color: #b194bf !important;
   padding: 0px 30px !important;
 }
 
@@ -121,6 +108,15 @@ h3:hover {
 .menu-nav {
   padding: 30px 30px;
   max-width: 396px;
+}
+
+/* About Page CSS */
+
+.about-page {
+  background-color: #e5edc4 !important;
+  min-height: 100vh;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .about-section {
@@ -150,4 +146,15 @@ h3:hover {
   text-align: start;
   max-width: 660px;
   padding-top: 30px;
+}
+
+/* Blog Page CSS */
+
+/* Studio Page CSS */
+
+.studio-page {
+  background-color: #ec9831 !important;
+  min-height: 100vh;
+  text-align: center;
+  margin: 0 auto;
 }
