@@ -4,6 +4,11 @@
   --heading-font-weight: 300;
   --text-colour-light: #f6f0eb;
 }
+@font-face {
+  font-family: new-spirit;
+  src: url(https://github.com/bkhunou/website/blob/main/style/New%20Spirit%20Light.otf);
+  src: url(https://github.com/bkhunou/website/blob/main/style/New%20Spirit%20Regular.otf);
+}
 
 .hero {
   background: #6a86d0;
