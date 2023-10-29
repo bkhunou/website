@@ -1,6 +1,6 @@
 :root {
   --heading-font-family: new-spirit, serif;
-  --heading-font-style: normal;
+  --heading-font-style: light;
   --heading-font-weight: 300;
   --text-colour-light: #f6f0eb;
 }
@@ -12,9 +12,6 @@
 
 body {
   background: #6a86d0;
-}
-
-.hero {
   color: var(--text-colour-light);
   text-align: center;
 }
