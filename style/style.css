@@ -47,6 +47,12 @@ h3 {
   text-align: center;
 }
 
+.credit {
+  font-family: var(--body-font-family);
+  font-size: 10px;
+  opacity: 30%;
+}
+
 /* Home Page CSS */
 
 .menu-link {
