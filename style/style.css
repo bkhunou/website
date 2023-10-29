@@ -126,6 +126,16 @@ h3 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  @media (max-width: 576px) {
+    .headshot {
+      display: none;
+    }
+    .about-header,
+    .about-text {
+      text-align: center;
+    }
+  }
 }
 
 .headshot {
@@ -156,6 +166,11 @@ h3 {
   margin: 0 auto;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 50px;
+}
 .studio-links {
   position: absolute;
   top: 50%;
