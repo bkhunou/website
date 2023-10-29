@@ -10,8 +10,11 @@
   src: url(https://github.com/bkhunou/website/blob/main/style/New%20Spirit%20Regular.otf);
 }
 
-.hero {
+body {
   background: #6a86d0;
+}
+
+.hero {
   color: var(--text-colour-light);
   text-align: center;
 }
